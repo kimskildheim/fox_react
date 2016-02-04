@@ -11,11 +11,8 @@ class CommentList extends Component {
     }
 
     render() {
-        const { isActive } = this.props;
-        const className = isActive ? 'active-list' : 'inactive-list';
-
         return (
-            <ul className={className}>
+            <ul>
                 <li> Comment One </li>
             </ul>
         )
@@ -23,4 +20,4 @@ class CommentList extends Component {
 }
 
 CommentList.propTypes = propTypes;
-export default CommentList
+export default CommentList;
