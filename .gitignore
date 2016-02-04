@@ -6,3 +6,4 @@ alfa.*
 /target/
 .mvn/
 node_modules
+/dist/bundle.js
