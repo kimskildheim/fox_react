@@ -5,3 +5,4 @@ alfa.*
 /build/*
 /target/
 .mvn/
+node_modules
